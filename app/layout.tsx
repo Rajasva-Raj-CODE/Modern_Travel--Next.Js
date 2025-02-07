@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
         className={` ${font.className}`}
       >
-       <ResponsiveNav />
+        <ResponsiveNav />
         {children}
 
       </body>
