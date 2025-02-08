@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className='relative w-full h-[120vh] sm:h-[100vh]'>
             {/*Overlay*/}
-            <div className='absolute top-0 left-0 w-full h-full bg-blue-950 opacity-70' ></div>
+            <div className='absolute top-0 left-0 w-full h-full bg-gray-900 opacity-70' ></div>
             <video src='/images/hero1.mp4' autoPlay loop muted preload='metadata' className='w-full h-full object-cover' />
             {/*Text*/}
             <div className='absolute z-[100] w-full h-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
