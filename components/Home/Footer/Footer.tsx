@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaDribbble, FaFacebook, FaTwitter } from 'react-icons/fa'
+import { FaDribbble, FaDribbbleSquare, FaGithub, FaLinkedin, } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -48,12 +48,12 @@ const Footer = () => {
             </div>
             {/*Bottom Footer*/}
             <div className='mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm'>
-                <p className='text-center md:text-left'>Copyright © 2024 Webdev. All rights reserved</p>
+                <p className='text-center md:text-left'>Copyright © 2025  Carfated by <span className=' font-bold'>Rajasva raj</span></p>
                 <div className='flex items-center space-x-4 mt-4 md:mt-0'>
                     <span>Social:</span>
-                    <Link href="#" className='text-gray-500 hover:text-gray-800'><FaFacebook /></Link>
-                    <Link href="#" className='text-gray-500 hover:text-gray-800'><FaTwitter /></Link>
-                    <Link href="#" className='text-gray-500 hover:text-gray-800'><FaDribbble /></Link>
+                    <Link href="https://www.linkedin.com/in/rajasvaraj/" target='_blank' className='text-gray-500 hover:text-gray-800'><FaLinkedin /></Link>
+                    <Link href="https://github.com/Rajasva-Raj-CODE"  target='_blank'className='text-gray-500 hover:text-gray-800'><FaGithub /></Link>
+                    <Link href="https://rajasava-raj.vercel.app/" target='_blank' className='text-gray-500 hover:text-gray-800'><FaDribbbleSquare/></Link>
                 </div>
             </div>
         </div>
